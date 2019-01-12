@@ -5,8 +5,9 @@ module.exports = {
   entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'typecheck.js',
-    libraryTarget: 'commonjs2',
+    filename: 'index.js',
+    libraryExport: 'default',
+    libraryTarget: 'commonjs2'
   },
   devtool: 'source-map',
   module: {
