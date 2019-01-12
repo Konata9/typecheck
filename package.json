@@ -1,11 +1,8 @@
 {
-  "name": "typecheck",
+  "name": "@konata9/typecheck.js",
   "version": "1.0.0",
   "description": "JavaScript typecheck",
   "main": "index.js",
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "test": "./node_modules/mocha/bin/mocha --compilers js:@babel/register test/typecheck.test.js"
@@ -17,7 +14,8 @@
   "keywords": [
     "TypeCheck",
     "typecheck",
-    "JavaScript"
+    "JavaScript",
+    "type"
   ],
   "author": "Konata9",
   "license": "MIT",
