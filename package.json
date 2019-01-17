@@ -1,6 +1,6 @@
 {
   "name": "@konata9/typecheck.js",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "JavaScript typecheck",
   "main": "./dist/index.js",
   "files": [
@@ -29,7 +29,6 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
-    "@babel/preset-es2015": "^7.0.0-beta.53",
     "@babel/register": "^7.0.0",
     "babel-loader": "^8.0.5",
     "chai": "^4.2.0",

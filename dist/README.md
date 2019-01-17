@@ -1,6 +1,6 @@
 # typecheck
 
-Really simple type check function tool. Check varible type in JavaScript.
+Really simple type check function tool with **Pure JavaScript**. Check varible type in JavaScript.
 
 ## Install
 
