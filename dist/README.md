@@ -35,3 +35,9 @@ The `target` is the varible you want to check. The return **type string** in tab
 | Set       | `typecheck(new Set())` | set       |
 | Map       | `typecheck(new Map())` | map       |
 | Symobol   | `typecheck(Symbol())`  | symbol    |
+
+### Test
+This module is tested by mocha. You can find the test case in test folder or run the test command below (You need full source on the github page).
+```shell
+npm run test
+```

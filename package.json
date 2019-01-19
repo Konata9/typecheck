@@ -1,6 +1,6 @@
 {
   "name": "@konata9/typecheck.js",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "JavaScript typecheck",
   "main": "./dist/index.js",
   "files": [
