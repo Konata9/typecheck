@@ -7,8 +7,11 @@
     "dist"
   ],
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "test": "./node_modules/mocha/bin/mocha --compilers js:@babel/register test/typecheck.test.js"
+    "start": "tsc -w",
+    "build": "tsc",
+    "test": "./node_modules/mocha/bin/mocha --compilers js:@babel/register test/typecheck.test.js",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "repository": {
     "type": "git",
@@ -27,14 +30,12 @@
   },
   "homepage": "https://github.com/Konata9/typecheck#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/register": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "@types/jest": "^24.0.11",
+    "jest": "^24.7.1",
+    "prettier": "^1.17.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0"
   },
   "dependencies": {}
 }
