@@ -3,13 +3,14 @@
   "version": "1.1.0",
   "description": "JavaScript typecheck",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
     "start": "tsc -w",
     "build": "tsc",
-    "test": "./node_modules/mocha/bin/mocha --compilers js:@babel/register test/typecheck.test.js",
+    "test": "jest",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
