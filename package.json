@@ -1,5 +1,5 @@
 {
-  "name": "@konata9/typecheck",
+  "name": "@konata9/typecheck.js",
   "version": "2.0.5",
   "description": "JavaScript typecheck",
   "main": "dist/index.js",
