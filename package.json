@@ -1,11 +1,12 @@
 {
   "name": "@konata9/typecheck.js",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "JavaScript typecheck",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist/",
+    "README.md"
   ],
   "scripts": {
     "start": "tsc -w",
