@@ -3,4 +3,5 @@ function typeCheck(params: any): string {
   return typeStr.toLowerCase().slice(8, typeStr.length - 1);
 }
 
+export { typeCheck };
 export default typeCheck;

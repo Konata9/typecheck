@@ -11,10 +11,14 @@ npm i @konata9/typecheck.js
 
 ## Usage
 
+**require usage has benn changed!**
+
 ```javascript
 import typecheck from '@konata9/typecheck.js';
 // or
-const typecheck = require('@konata9/typecheck.js');
+import { typeCheck } from '@konata9/typecheck.js';
+// or
+const { typecheck } = require('@konata9/typecheck.js');
 
 const arr = [];
 typecheck(arr); // array
